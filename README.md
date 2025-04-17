@@ -4,7 +4,7 @@
 
 ## 必要なソフトウェア
 
-開発を始める前に、以下のソフトウェアをインストールしてください：
+開発を始める前に、以下のソフトウェアをインストールしてください。
 
 - **Node.js**: バージョン 18.0.0 以上
 - **npm** または **yarn**: パッケージ管理ツール
@@ -46,7 +46,20 @@ git clone git@github.com:shuji-bonji/rxjs-with-typescript-starter-kit.git
 
 # プロジェクトディレクトリに移動
 cd rxjs-with-typescript-starter-kit
+
+# (オプション) リモートリポジトリの変更 ※ 自身のリモートリポジトリに変更する場合行います。
+git remote remove origin
+git remote add origin https://github.com/your-username/your-project.git
+
 ```
+
+### Githubの 「Use this template」 を利用する
+
+テンプレートとして、自身のリポジトリにコピーして利用することも可能です。
+
+- [ここ](https://github.com/shuji-bonji/rxjs-with-typescript-starter-kit)にアクセスする
+- `rxjs-with-typescript-starter-kit`リポジトリページの左上に「Use this template」を押し、`Create new repository`を選らぶ。
+
 
 ### 依存関係のインストール
 
@@ -62,9 +75,7 @@ npm install
 npm run dev
 ```
 
-開発サーバーが起動すると、通常は http://localhost:3000 でアプリケーションにアクセスできます。
-
-以下のように表示されるため、`local:`のURLを参照してください。
+開発サーバーが起動すると、以下のように表示されるため、`local:`のURLを参照してください。
 ```sh
 % npm run dev
 
@@ -82,7 +93,7 @@ Port 5173 is in use, trying another one...
 
 ## 便利なコマンド
 
-以下のコマンドを使用して開発を効率化できます：
+以下のコマンドを使用して開発を効率化できます。
 
 ```bash
 # ビルド
