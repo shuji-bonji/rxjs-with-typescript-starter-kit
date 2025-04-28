@@ -21,7 +21,7 @@
     "noUncheckedSideEffectImports": true,
 
     /* Testing */
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "./src/types/index"]
   },
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules"]

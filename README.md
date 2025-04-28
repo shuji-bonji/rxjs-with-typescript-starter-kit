@@ -122,8 +122,9 @@ rxjs-with-typescript-starter-kit/
 │   ├── components/# コンポーネント
 │   ├── layouts/   # レイアウト
 │   ├── styles/    # グローバルスタイル
+│   ├── types/     # カスタムTypeの格納先（index.d.tsに定義したタイプを`export * from './hoge-types'`など記述登録しておきます。
 │   └── main.ts    # エントリーポイント
-├── tests/         # テスト
+├── tests/         # テストコード格納先
 ├── .gitignore     # Git 除外ファイル設定
 ├── package.json   # プロジェクト設定
 └── README.md      # プロジェクト概要
