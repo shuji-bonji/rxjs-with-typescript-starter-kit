@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { Counter } from './counter';
 import { firstValueFrom } from 'rxjs';
+import { Counter } from '../src/utils/counter';
 
 describe('Counter', () => {
   let counter: Counter;
