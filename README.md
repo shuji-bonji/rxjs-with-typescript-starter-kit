@@ -111,7 +111,7 @@ npm run preview
 
 ## プロジェクト構造
 
-### プロジェクトの主要なディレクトリとファイルの概要：
+### プロジェクトの主要なディレクトリとファイルの概要
 
 ```
 rxjs-with-typescript-starter-kit/
